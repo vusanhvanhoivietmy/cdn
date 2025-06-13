@@ -1,0 +1,40 @@
+@media only screen and (max-width: #{map_get($mediaScreen,"xlarge")}px) {
+
+}
+
+@media only screen and (max-width: #{map_get($mediaScreen,"large")}px) {
+  .section_c {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .container_c {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  img.icon_new {
+    max-width: 50px !important;
+    top: -1.6rem !important;
+    right: -1.6rem !important;
+    transform: rotate(-2deg);
+  }  
+}
+
+@media only screen and (max-width: #{map_get($mediaScreen,"medium")}px) {
+
+}
+
+@media only screen and (max-width: #{map_get($mediaScreen,"small")}px) {
+
+}
+
+@media only screen and (max-width: #{map_get($mediaScreen,"xsmall")}px) {
+  .hide-on-xsmall-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: #{map_get($mediaScreen,"xxsmall")}px) {
+  .hide-on-xxsmall-and-down {
+    display: none !important;
+  }
+}

@@ -1,0 +1,34 @@
+.collapsible.collapsible_white li.active > .collapsible-header {
+  color: $blueColor !important;
+  background-color: $whiteColor !important;
+}
+
+.collapsible.collapsible_white li.active > .collapsible-header i {
+  color: $blueColor !important;
+}
+
+.collapsible.collapsible_blue li.active > .collapsible-header {
+  color: $whiteColor !important;
+  background-color: $blueColor !important;
+}
+
+.collapsible.collapsible_blue li.active > .collapsible-header i {
+  color: $whiteColor !important;
+}
+
+.collapsible.collapsible_red li.active > .collapsible-header {
+  color: $whiteColor !important;
+  background-color: $redColor !important;
+}
+
+.collapsible.collapsible_red li.active > .collapsible-header i {
+  color: $whiteColor !important;
+}
+
+.collapsible li.active > .collapsible-header i {
+  display: none !important;
+}
+
+.collapsible li.active > .collapsible-header i.hide-default {
+  display: inline-block !important;
+}

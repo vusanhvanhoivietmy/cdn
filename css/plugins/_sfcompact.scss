@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SFCompactRounded";
+  src: url("/webroot/css/fonts/sfcompact/SFCompactRounded-Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFCompactRounded";
+  src: url("/webroot/css/fonts/sfcompact/SFCompactRounded-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFCompactRounded";
+  src: url("/webroot/css/fonts/sfcompact/SFCompactRounded-Bold.woff2")
+    format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sfcompactrounded {
+  font-family: "SFCompactRounded", "sans-serif";
+}

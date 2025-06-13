@@ -1,0 +1,83 @@
+.turntable-bg {
+  margin: 0 auto;
+  position: relative;
+  width: 550px;
+  height: 550px;
+  text-align: center;
+}
+
+.turntable-bg .pointer {
+  width: 25%;
+  height: 25%;
+  max-width: 150px;
+  max-height: 150px;
+  position: absolute;
+  top: 50%;
+  @include translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 8;
+  cursor: pointer;
+  @include transition(0.1s);
+  @include border-radius(50%);
+  @include box-shadow(0 0 15px rgba(255, 255, 255, 0.75));
+}
+
+.turntable-bg .countdown {
+  width: 25%;
+  height: 25%;
+  max-width: 150px;
+  max-height: 150px;
+  position: absolute;
+  top: 50%;
+  @include translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9;
+}
+
+.turntable-bg .kim {
+  z-index: 8;
+  top: 50%;
+  left: -3rem;
+  @include translateY(-50%);
+  width: 20%;
+  max-width: 120px;
+}
+
+.turntable-bg .rotate {
+  width: 100%;
+  height: 100%;
+  max-width: 992px;
+  max-height: 992px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rotation.active {
+  -webkit-animation: rotation 3s infinite linear;
+}
+
+.rotation.active.slow {
+  -webkit-animation: rotation 20s infinite linear;
+}
+
+.rotation.active.normal {
+  -webkit-animation: rotation 0.25s infinite linear;
+}
+
+.rotation.active.fast {
+  -webkit-animation: rotation 0.075s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359.5deg);
+  }
+}

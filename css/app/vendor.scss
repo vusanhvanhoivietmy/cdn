@@ -1,0 +1,21 @@
+@import "../modules/variable_website";
+
+/* Import Other Lib */
+/* @import "../plugins/aos"; */
+@import "../plugins/fancybox";
+@import "../plugins/animated";
+
+/* Owl Carousel 2.3.4 */
+@import "../plugins/owl.carousel";
+@import "../plugins/owl.theme.default";
+
+/* Select 2 */
+/* @import "../plugins/select2"; */
+
+.f-button.is-close-btn {
+  background-color: $blueColor !important;
+}
+.f-button.is-close-btn:hover {
+  background-color: $redColor !important;
+  cursor: pointer;
+}

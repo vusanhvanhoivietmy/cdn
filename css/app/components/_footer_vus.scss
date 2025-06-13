@@ -1,0 +1,32 @@
+footer {
+  font-weight: $fontNormal;
+}
+
+footer.website a:link,
+footer.website a:visited {
+  color: $whiteColor;
+  outline: none;
+  font-size: inherit;
+}
+
+footer.website a:hover {
+  color: $redColor;
+}
+
+footer.website i.icon_arrow {
+  position: relative;
+  z-index: 0;
+}
+
+footer.website i.icon_arrow::before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: $whiteColor;
+  @include border-radius(50%);
+  z-index: -1;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

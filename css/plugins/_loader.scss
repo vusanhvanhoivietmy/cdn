@@ -1,0 +1,12 @@
+:root {
+  --primary: $redColor;
+  --secondary: $whiteColor;
+}
+@import "./loader/basic";
+@import "./loader/borders";
+@import "./loader/coffee";
+@import "./loader/cube";
+@import "./loader/duo";
+@import "./loader/four_dots";
+@import "./loader/split";
+@import "./loader/traditional";
