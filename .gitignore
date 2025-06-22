@@ -1,2 +1,4 @@
 js/
 upload/
+.env
+logs/
