@@ -1,2 +1,65 @@
+# FILE ENV
+.env
+.env.local
+.env.*.local
+
+# LOGS, CACHE
+*.log
+*.cache
+*.tmp
+*.lock
+tmp/
+logs/
+cache/*.*
+
+# COMPOSER
+/vendor/
+# composer.lock # (BO # NEU MUON CO DINH VERSION THU VIEN)
+
+# NODE 
+node_modules/
+dist/
+public/build/
+*.tsbuildinfo
+
+# IDE/EDITOR CONFIG
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# DOCKER
+docker-compose.override.yml
+docker-compose.prod.yml
+.docker/
+
+# GITHUB ACTIONS SECRETS
+.github/secrets/
+
+# FILE BACKUP
+*.bak
+*.swp
+*.tmp
+*~
+
+# PHPUNIT
+phpunit.result.cache
+
+# IGNORE SOME DIRECTORIES
 js/
 upload/
+logs/
+cache/
+disavow/
+css/sass
+css/plugins
+css/modules
+css/media_screen
+css/app
+
+# IGNORE SOME FILES
+*.scss
