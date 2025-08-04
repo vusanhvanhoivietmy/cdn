@@ -54,11 +54,18 @@ upload/
 logs/
 cache/
 disavow/
-css/sass
-css/plugins
+css/sass/
+css/plugins//
 css/modules
-css/media_screen
-css/app
+css/media_screen/
+css/app/
+dist/tmp/
 
 # IGNORE SOME FILES
 *.scss
+*.png
+*.gif
+*.jpg
+*.ttf
+*.otf
+*.eot
