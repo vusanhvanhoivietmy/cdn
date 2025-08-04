@@ -18,7 +18,6 @@ cache/*.*
 
 # NODE 
 node_modules/
-dist/
 public/build/
 *.tsbuildinfo
 
