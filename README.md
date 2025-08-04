@@ -1,1 +1,1 @@
-# CDN_VUS
+VUS's CDN
