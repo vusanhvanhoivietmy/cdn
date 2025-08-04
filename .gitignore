@@ -54,15 +54,15 @@ upload/
 logs/
 cache/
 disavow/
-css/sass/
-css/plugins//
-css/modules
-css/media_screen/
-css/app/
-dist/tmp/
-dist/duhoc/
-dist/ldp/
-dist/supersummer/
+sass/
+plugins/
+modules/
+media_screen/
+app/
+tmp/
+duhoc/
+ldp/
+supersummer/
 
 # IGNORE SOME FILES
 *.scss
