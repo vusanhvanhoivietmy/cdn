@@ -60,6 +60,9 @@ css/modules
 css/media_screen/
 css/app/
 dist/tmp/
+dist/duhoc/
+dist/ldp/
+dist/supersummer/
 
 # IGNORE SOME FILES
 *.scss
