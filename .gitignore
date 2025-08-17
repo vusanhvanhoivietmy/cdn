@@ -59,6 +59,7 @@ plugins/
 modules/
 media_screen/
 app/
+samples/
 tmp/
 duhoc/
 ldp/
