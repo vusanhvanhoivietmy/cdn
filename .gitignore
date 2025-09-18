@@ -53,7 +53,9 @@ js/
 upload/
 logs/
 cache/
+caching/
 disavow/
+disabled/
 sass/
 plugins/
 modules/
@@ -61,8 +63,6 @@ media_screen/
 app/
 samples/
 tmp/
-duhoc/
-ldp/
 
 # IGNORE SOME FILES
 *.scss
