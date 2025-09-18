@@ -63,7 +63,6 @@ samples/
 tmp/
 duhoc/
 ldp/
-supersummer/
 
 # IGNORE SOME FILES
 *.scss
