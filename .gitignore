@@ -24,6 +24,7 @@ public/build/
 # IDE/EDITOR CONFIG
 .idea/
 .vscode/
+.vs/
 *.sublime-project
 *.sublime-workspace
 
